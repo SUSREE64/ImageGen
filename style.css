@@ -1,0 +1,62 @@
+
+.MainHeading  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: sans-serif;
+    
+
+}
+.inputArea{
+    display: flex;
+    width: 65vw;
+    justify-content: space-between;
+    text-align: center;
+    margin: auto;
+    /* background-color: aqua; */
+    margin-bottom: 20px;
+    
+}
+.imageHolder{
+   display: flex;
+    width :50%;
+    height:80vh;
+    justify-content: center;
+    /* background-color: rgb(98, 0, 255); */
+    align-items:center;
+    margin: auto;
+}
+#imageBox {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+    /* background-color: blueviolet; */
+}
+#lable{
+    margin-left: 10px;
+    margin-right:10px;
+    font-size: 20px;
+    text-align: center;
+}
+#promptText{
+    font-size: 20px;
+    width: 650px;
+    text-align: center;
+
+}
+#btn-gen, #btn-clear, #btn-download{
+   max-width: 150px;
+   min-width: 150px;
+   font-size: 18px;
+   text-align: center;
+   cursor:pointer;
+
+}
+#btn-download{
+    max-width: 150px;
+    min-width: 150px;
+    font-size: 18px;
+    text-align: center;
+    cursor:pointer
+}
