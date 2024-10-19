@@ -5,6 +5,7 @@ const btn_gen_el = document.getElementById("btn-gen");
 const btn_clear_el = document.getElementById("btn-clear");
 const loadingMessage_el = document.getElementById("loadingMessage");
 const btn_download_el = document.getElementById("btn-download");
+const download_el = document .getElementById("download");
 
 let promptText = "";
 
@@ -57,11 +58,10 @@ btn_gen_el.addEventListener("click", (event) => {
       loadingMessage_el.style.display = "none";
       imageBox_el.style.display = "block";
       // Update the download button
+      download_el.style.display = "block";
       btn_download_el.style.display = "block";
       btn_download_el.href = imageUrl;
-      btn_download_el.download = "generated_image.png";
-    
-    
+      btn_download_el.download = "generated_image.png";    
     }).catch(error => {
       loadingMessage_el.style.display = "none";
       alert("Failed to fetch the image. Please try again.");
