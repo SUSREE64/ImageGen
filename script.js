@@ -1,4 +1,4 @@
-const token = "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";
+const token = "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";
 const imageBox_el = document.getElementById("imageBox");
 const promptText_el = document.getElementById("promptText");
 const btn_gen_el = document.getElementById("btn-gen");
